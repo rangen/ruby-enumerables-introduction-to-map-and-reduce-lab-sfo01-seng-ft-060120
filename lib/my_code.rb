@@ -70,5 +70,5 @@ def reduce_to_any_true(source_array)
     value = value || source_array[index]
     index += 1
   end
-  resultArray
+  value
 end
