@@ -68,7 +68,7 @@ def reduce_to_any_true(source_array)
   value = false
   while index < source_array.length
     value = value || source_array[index]
-    puts value
+    puts index + ":    " + value
     index += 1
   end
   value
